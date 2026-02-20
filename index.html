@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz Cumpleaños 💖</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#ff758c,#ff7eb3);
+    color:white;
+    text-align:center;
+}
+
+.container{
+    padding:30px 20px;
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    font-size:clamp(2em,5vw,3em);
+    margin-bottom:10px;
+}
+
+.mensaje{
+    font-size:clamp(1em,3.5vw,1.2em);
+    line-height:1.7;
+    margin:20px 0 40px 0;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.galeria img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    transition:0.4s;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+.footer{
+    margin-top:40px;
+    font-size:1.1em;
+    opacity:0.95;
+}
+
+.corazon{
+    font-size:3em;
+    animation:latido 1.2s infinite;
+}
+
+@keyframes latido{
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Feliz Cumpleaños, Mi Amor 💕</h1>
+
+<div class="corazon">❤️</div>
+
+<div class="mensaje">
+Hoy celebro el día en que llegó al mundo una de las personas más importantes para mi, el motivo de mi sonrisa, la mujer en la que pienso mañana, tarde y noche, la que desde que llegó a mi vida la ha hecho mucho mejor y por la cual estoy loco.  
+Gracias por tu sonrisa, por tu ternura, por tu forma de mirarme y por cada momento que compartimos juntos.  
+
+Eres mi lugar favorito, mi paz y mi alegría.  
+Deseo que este nuevo año de vida esté lleno de sueños cumplidos, risas infinitas y mucho amor…  
+y que yo pueda estar a tu lado en cada paso que des.  
+
+Te quiero más de lo que las palabras pueden explicar.  
+Feliz cumpleaños, Greta 💖
+</div>
+
+<div class="galeria">
+    <img src="foto1.jpg" alt="Nosotros 1">
+    <img src="foto2.jpg" alt="Nosotros 2">
+    <img src="foto3.jpg" alt="Nosotros 3">
+</div>
+
+<div class="footer">
+Con todo mi amor,<br>
+Gabriel 💘
+</div>
+
+</div>
+
+</body>
+</html>
